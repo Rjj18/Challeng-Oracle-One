@@ -16,11 +16,11 @@
         </header>
         <main>
             <section class="entrada">
-                <textarea name="codigo" id="codigo" cols="30" rows="10" placeholder="digite aqui seu texto"></textarea>
+                <textarea name="cod" id="codigo" cols="30" rows="10" placeholder="digite aqui seu texto"></textarea>
                 <div class="info"><i class="fa fa-info-circle" aria-hidden="true"></i><p>Digite apenas letras e números. Não use acentos.</p></div>
                 <div class="botoes">
-                    <button><p>Criptografar</p></button>
-                    <button><p>Decifrar</p></button>
+                    <button id="cripto" onclick="criptografar()"><p>Criptografar</p></button>
+                    <button id="uncripto" onclick="decifrar()"><p>Decifrar</p></button>
                 </div>
                 <div class="linha"></div>
                 <section class="saida">
