@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -14,6 +15,22 @@
             <h1>Decodificador Roger</h1>
         </header>
         <main>
+            <section class="entrada">
+                <textarea name="codigo" id="codigo" cols="30" rows="10" placeholder="digite aqui seu texto"></textarea>
+                <div class="info"><i class="fa fa-info-circle" aria-hidden="true"></i><p>Digite apenas letras e números. Não use acentos.</p></div>
+                <div class="botoes">
+                    <button><p>Criptografar</p></button>
+                    <button><p>Decifrar</p></button>
+                </div>
+                <div class="linha"></div>
+                <section class="saida">
+                    <div class="resultado">
+                        <h2>Nenhuma Mensagem Encontrada</h2>
+                        <p>Digite um texto que você deseja criptografar ou decodificar</p>
+                    </div>
+
+                </section>
+            </section>
         </main>
         <footer>
         </footer>
