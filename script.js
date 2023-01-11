@@ -1,12 +1,10 @@
 const texto = document.querySelector("#codigo");
 
-
-
 function criptografar () {
     let str = texto.value;
     let resultadoCripto = str.replace(/e/g, "enter")
-        .replace(/a/g, "ai")
         .replace(/i/g, "imes")
+        .replace(/a/g, "ai")
         .replace(/o/g, "ober")
         .replace(/u/g, "ufat");
 
@@ -16,8 +14,8 @@ function criptografar () {
 function decifrar () {
     let str = texto.value;
     let resultadoDecifra = str.replace(/enter/g, "e")
-        .replace(/ai/g, "a")
         .replace(/imes/g, "i")
+        .replace(/ai/g, "a")
         .replace(/ober/g, "o")
         .replace(/ufat/g, "u");
         
